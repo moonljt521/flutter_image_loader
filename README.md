@@ -18,7 +18,7 @@ samples, guidance on mobile development, and a full API reference.
   https://github.com/renefloor/flutter_cached_network_image
 
 ## How to use
-
+```
   GlideWidget(
           width: 65,
           height: 65,
@@ -26,3 +26,4 @@ samples, guidance on mobile development, and a full API reference.
           placeIcon: "images/avatar_default_icon.webp",
           errorIcon: "images/avatar_default_icon.webp",
           imageUrl: widget._itemData.avatar),
+```

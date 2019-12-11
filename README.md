@@ -14,8 +14,8 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 # imageloader
-  依赖于 (flutter_cached_network_image)，做了修饰，便于配置圆角等
-  https://github.com/renefloor/flutter_cached_network_image
+  依赖于 [flutter_cached_network_image](https://github.com/renefloor/flutter_cached_network_image)，做了修饰，便于配置圆角等
+  
 
 ## How to use
 ```

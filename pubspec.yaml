@@ -1,8 +1,8 @@
 name: imagegrideloader
 description: A new Flutter package project.
 version: 0.0.1
-author:
-homepage:
+author: moonljt521<moonljt521@gmail.com>
+homepage: https://github.com/moonljt521/flutter_image_loader
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,12 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cached_network_image: ^1.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  cached_network_image: 1.1.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec

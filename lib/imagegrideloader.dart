@@ -1,4 +1,5 @@
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/widgets.dart';
 
 class GlideWidget extends StatefulWidget {
@@ -44,16 +45,12 @@ class _GlideState extends State<GlideWidget> {
     return Container(
         width: widget.width,
         height: widget.height,
-//        child: CachedNetworkImage(
-//          fit: BoxFit.cover,
-//          placeholder: (context , url) => _placeWidget(widget.placeIcon,),
-//          errorWidget :(context, url, error) => _errorWidget(widget.errorIcon),
-//          imageUrl: widget.imageUrl,
-//        )
-
-      child: Image.network(
-        widget.imageUrl,
-    )
+        child: CachedNetworkImage(
+          fit: BoxFit.cover,
+          placeholder: (context , url) => _placeWidget(widget.placeIcon,),
+          errorWidget :(context, url, error) => _errorWidget(widget.errorIcon),
+          imageUrl: widget.imageUrl,
+        )
 
     );
   }
